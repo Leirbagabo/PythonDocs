@@ -1,7 +1,8 @@
 {
   "index": "Introducción",
   "prerequisitos": "prerequisitos",
-  "another": "Another Page",
+  "variables": "Variables y tipos de datos",
+  "operadores-aritmeticos":"Operadores Aritméticos",
   "about": {
     "title": "Acerca de",
     "type": "page"
