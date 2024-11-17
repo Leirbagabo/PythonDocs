@@ -1,15 +1,15 @@
 {
-  "index": "Introduction",
+  "index": "Introducción",
+  "prerequisitos": "prerequisitos",
   "another": "Another Page",
-  "advanced": "Advanced (A Folder)",
   "about": {
-    "title": "About",
+    "title": "Acerca de",
     "type": "page"
   },
   "contact": {
-    "title": "Contact ↗",
+    "title": "Contacto ↗",
     "type": "page",
-    "href": "https://twitter.com/shuding_",
+    "href": "https://www.instagram.com/gaboespa/",
     "newWindow": true
   }
 }
