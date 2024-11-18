@@ -3,6 +3,7 @@
   "prerequisitos": "prerequisitos",
   "variables": "Variables y tipos de datos",
   "operadores-aritmeticos":"Operadores Aritméticos",
+  "operadores-de-comparacion":"Operadores de comparación",
   "about": {
     "title": "Acerca de",
     "type": "page"

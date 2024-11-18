@@ -1,0 +1,66 @@
+# Operadores de comparación
+
+Para comparar entre variables y tipos de datos utilizamos los siguientes operadores:
+
+
+``` py filename="operadores de comparación" {0} copy
+
+> ## mayor que
+
+>= ## mayor o igual que
+
+== ## igual o equivalente
+
+< ## menor que
+
+<= ## menor o igual que
+
+!= ## distinto a
+ 
+```
+Esto lo usaremos más tarde con condicionales y distintos tipos de estructuras de control.
+
+## Función input 
+
+La función **input()** se utiliza en python para optener una entrada de texto del usuario.
+
+dentro de los paréntesis puede ir un texto opcional entre comillas, a modo de mensaje al usuario.
+
+
+``` py filename="input" {1} copy
+input() #permite al usuario escribir en consola.
+```
+
+``` py filename="input pt2" {4} copy
+nombre= input("por favor, ingrese su nombre: ")
+#muestra el mensaje "por favor, ingrese su nombre: "y le permite al usuario responder con texto, este se almacena en la variable nombre
+
+print("Hola", nombre) # Hola *nombre ingresado por el usuario*
+```
+*de esta forma optenemos valores de forma dinámica  directo del usuario en vez de escribirlo directo en el código*
+
+Es importante saber que el tipo de dato que recibimos de un **input()** por defecto es Str(texto).
+
+es decir, si pedimos al usuario su edad con input("ingrese su edad"), no podremos realizar operaciones aritmeticas con ese valor ya que es de tipo texto.
+
+Es posible transformar de un tipo de datos a otro con el siguiente concepto.
+
+## Casting
+
+para convertir de un tipo de datos a otro, indicamos explicitamente el tipo de datos que esperamos recibir de la siguiente manera:
+
+* int() 
+
+* float()
+
+* str()
+
+y dentro de los paréntesis el valor inicial.
+
+``` py filename="casting" {4} copy
+nombre= int(input("por favor, ingrese su edad: "))
+#como el input() esta dentro del int(), el valor del usuario se convertira a número
+
+print("Hola, usted tiene", edad, "años y en 7 años tendrá",años+7) 
+```
+
